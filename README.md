@@ -2,4 +2,4 @@
 
 A multiplayer tic tac toe game
 
-![Optional Text](../src/img/TTT.png)
+![Optional Text](../main/src/img/TTT.png)
