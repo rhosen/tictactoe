@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import Playground from "./Playground";
 
 function App() {
+
+  let player1, player2;
+
+  startGame();
+  
+  function startGame() {
+    player1 = prompt("Player 1, Enter your name");
+    player2 = prompt("Player 2, Enter your name");
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    < Playground player1 ={player1} player2 = {player2} />
   );
 }
 

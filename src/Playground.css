@@ -1,0 +1,20 @@
+.ground{
+    height: 306px;
+    width: 306px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.rec{
+    height: 100px;
+    width: 100px;
+    float: left;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 70px;
+    vertical-align: middle;
+}
+
+h1 span{
+    margin: 0 20px;
+}
